@@ -68,7 +68,7 @@ for i in range(0, num_classes):
     print("Saving faces to output folder...")
     for k, index in enumerate(indices):
         img, shape = images[index]
-        file_base_reg = regions[index].replace('/', '_').replace(' ', '_')
+        file_base_reg = regions[index].replace('/', '_').replace(' ', '_').replace('\t', '_')
         file_path = os.path.join(output_folder_path, file_base_reg+"_"+str(k)+"_"+str(i))
         dlib.save_face_chip(img, shape, file_path, size=150, padding=0.25)
         output3.write("{}\tid{}\n".format(regions[index], str(i)))
