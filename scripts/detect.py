@@ -20,7 +20,7 @@ facerec = dlib.face_recognition_model_v1(face_rec_model_path)
 output = open('{}.txt'.format(faces_folder_path), 'w+')
 output2 = open('{}.68.txt'.format(faces_folder_path), 'w+')
 output3 = open('{}.id.txt'.format(faces_folder_path), 'w+')
-output_folder_path = '{}_out'.format(faces_folder_path)
+output_folder = '{}_out'.format(faces_folder_path)
 
 descriptors = []
 images = []
