@@ -1,0 +1,12 @@
+3.299253	9.744306	Macdara Ó Cuaig
+10.358120	15.268636	Macdara Ó Cuaig
+15.728997	20.255879	Macdara Ó Cuaig
+21.636962	27.238019	Macdara Ó Cuaig
+31.764901	37.903047	Macdara Ó Cuaig
+41.892841	48.184440	Macdara Ó Cuaig
+138.760445	142.136425	Macdara Ó Cuaig
+146.202946	148.581477	Macdara Ó Cuaig
+151.612187	152.916542	Macdara Ó Cuaig
+157.807877	160.560451	Macdara Ó Cuaig
+160.723496	165.221605	Macdara Ó Cuaig
+168.300269	169.029174	Macdara Ó Cuaig
