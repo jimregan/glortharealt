@@ -8,7 +8,7 @@ start = time.time()
 
 predictor_path = 'shape_predictor_5_face_landmarks.dat'
 face_rec_model_path = 'dlib_face_recognition_resnet_model_v1.dat'
-predictor2_path = 'shape_predictor_68_face_landmarks.dat
+predictor2_path = 'shape_predictor_68_face_landmarks.dat'
 faces_folder_path = sys.argv[1]
 
 detector = dlib.get_frontal_face_detector()
