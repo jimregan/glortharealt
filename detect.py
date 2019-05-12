@@ -70,7 +70,7 @@ for i in range(0, num_classes):
         img, shape = images[index]
         file_path = os.path.join(output_folder_path,"face_"+str(k)+"_"+str(i))
         dlib.save_face_chip(img, shape, file_path, size=150, padding=0.25)
-        output3.write("{}\tid{}\n".format(regions[index], str(k)))
+        output3.write("{}\tid{}\n".format(regions[index], str(i)))
 
 output.close()
 output2.close()
