@@ -25,6 +25,7 @@ output_folder = '{}_out'.format(faces_folder_path)
 descriptors = []
 images = []
 regions = []
+ridx = 0
 
 def format_p68(shape):
   points = list()
@@ -45,7 +46,8 @@ for f in glob.glob(os.path.join(faces_folder_path, "*.jpg")):
     face_descriptor = facerec.compute_face_descriptor(img, shape)
     descriptors.append(face_descriptor)
     images.append((img, shape))
-    regions.append(base_region)
+    regions.append(ridx)
+    ridx = ridx + 1
 
 # Now let's cluster the faces.  
 labels = dlib.chinese_whispers_clustering(descriptors, 0.5)
@@ -68,10 +70,9 @@ for i in range(0, num_classes):
     print("Saving faces to output folder...")
     for k, index in enumerate(indices):
         img, shape = images[index]
-        file_base_reg = regions[index].replace('/', '_').replace(' ', '_').replace('\t', '_')
-        file_path = os.path.join(output_folder_path, file_base_reg+"_"+str(k)+"_"+str(i))
+        file_path = os.path.join(output_folder_path, face+"_idx"+str(regions[index])+"_"+str(k)+"_"+str(i))
         dlib.save_face_chip(img, shape, file_path, size=150, padding=0.25)
-        output3.write("{}\tid{}\n".format(regions[index], str(i)))
+        output3.write("idx{}\tid{}\n".format(str(regions[index]), str(i)))
 
 output.close()
 output2.close()
