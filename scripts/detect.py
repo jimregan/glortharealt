@@ -4,6 +4,8 @@ import os
 import dlib
 import glob
 import time
+from mmappickle import mmapdict
+import numpy as np
 
 start = time.time()
 
@@ -21,6 +23,7 @@ output = open('{}.txt'.format(faces_folder_path), 'w+')
 output2 = open('{}.68.txt'.format(faces_folder_path), 'w+')
 output3 = open('{}.id.txt'.format(faces_folder_path), 'w+')
 output_folder = '{}_out'.format(faces_folder_path)
+mm = mmapdict('{}.mmdpickle'.format(faces_folder_path))
 
 descriptors = []
 images = []
@@ -45,12 +48,15 @@ for f in glob.glob(os.path.join(faces_folder_path, "*.jpg")):
     output2.write("{}\t{}\n".format(base_region, ' '.join(format_p68(shape))))
     face_descriptor = facerec.compute_face_descriptor(img, shape)
     descriptors.append(face_descriptor)
+    mm[str(ridx)] = np.array(face_descriptor)
     images.append((img, shape))
     regions.append(ridx)
     ridx = ridx + 1
 
+print('Got to clustering')
 # Now let's cluster the faces.  
 labels = dlib.chinese_whispers_clustering(descriptors, 0.5)
+descriptors = []
 num_classes = len(set(labels))
 print("Number of clusters: {}".format(num_classes))
 
