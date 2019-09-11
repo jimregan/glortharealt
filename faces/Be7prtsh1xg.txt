@@ -1,2 +1,2 @@
-File: Be7prtsh1xg/00000020.jpg Detection 0: Left: 377 Top: 136 Right: 429 Bottom: 188
 File: Be7prtsh1xg/00000022.jpg Detection 0: Left: 377 Top: 141 Right: 429 Bottom: 193
+File: Be7prtsh1xg/00000020.jpg Detection 0: Left: 377 Top: 136 Right: 429 Bottom: 188

@@ -1,0 +1,2 @@
+idx0	id0
+idx1	id0

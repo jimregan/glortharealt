@@ -507,6 +507,7 @@ idx505	id0
 idx506	id0
 idx507	id0
 idx508	id0
+idx509	id0
 idx510	id0
 idx511	id0
 idx512	id0
@@ -588,6 +589,7 @@ idx587	id0
 idx588	id0
 idx589	id0
 idx590	id0
+idx591	id0
 idx592	id0
 idx593	id0
 idx594	id0
@@ -1035,7 +1037,6 @@ idx1035	id0
 idx1036	id0
 idx1037	id0
 idx1038	id0
-idx1039	id0
 idx1040	id0
 idx1041	id0
 idx1042	id0
@@ -1195,7 +1196,6 @@ idx1195	id0
 idx1196	id0
 idx1197	id0
 idx1198	id0
-idx1199	id0
 idx1200	id0
 idx1201	id0
 idx1202	id0
@@ -1592,5 +1592,5 @@ idx1592	id0
 idx1593	id0
 idx1594	id0
 idx1595	id0
-idx509	id1
-idx591	id2
+idx1039	id1
+idx1199	id2
