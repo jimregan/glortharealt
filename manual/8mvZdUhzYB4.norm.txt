@@ -1,0 +1,4 @@
+1	1975	nineteen seventy five
+1	Fr	Father
+9	120	one hundred and twenty
+10	2,500	two thousand five hundred
