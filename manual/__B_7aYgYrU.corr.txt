@@ -1,0 +1,30 @@
+00000165	déanai	déanaí
+00000233	wéeithrfe	ceithre
+00000357	á'thó'sás	a thógas
+00000357	as	ag
+00000416	Ta	Tá
+00000416	Mhichil	Mhichíl
+00000416	scroi-lar	gcroí-lár
+00000416	sceal	scéal
+00000416	ásuis	agus í
+00000416	so	go
+00000669	ginearalta	ginearálta
+00000669	san	gan
+00000669	so	go
+00000669	dtí'Jósépha	dtí Josepha
+00000669	Madisan	Madigan
+00000734	diomá	díomá
+00000734	nsé	ngé
+00000734	scananníochta	scanánaíochta	'scanánníochta'
+00000734	NuacáFTA4ti	ar an
+00000988	aesuis	agus
+00000988	marsaiochta	margaíochta
+00000988	ata	atá
+00000988	sceilise	sceilige
+00001059	Deirtar	Deirtear
+00001059	so	go
+00001059	Wars: asus san	Wars agus gan
+00001186	am oiclhreacht	an oidhreacht
+00001186	seandalaíochta	seandálaíochta
+00001186	áacbhaineann	a bhaineann
+00001186	scarraieo	gcarraig

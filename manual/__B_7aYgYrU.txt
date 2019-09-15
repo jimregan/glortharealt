@@ -1,0 +1,6 @@
+6.084075	15.141410	Seán Mac an tSíthigh
+15.485293	19.574849	Seán Mac an tSíthigh
+24.436818	28.838514	Seán Mac an tSíthigh
+29.161234	36.028303	Seán Mac an tSíthigh
+36.292828	41.831981	Seán Mac an tSíthigh
+42.117668	50.354976	Seán Mac an tSíthigh

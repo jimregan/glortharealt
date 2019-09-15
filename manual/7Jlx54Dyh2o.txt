@@ -1,0 +1,22 @@
+11.295906	15.758487	Micheál Ó Ciaraidh
+15.845646	16.542925	Sibéal Ní Chasaide
+16.612652	19.506357	Micheál Ó Ciaraidh
+19.593516	21.127528	Sibéal Ní Chasaide
+21.127528	21.981694	Micheál Ó Ciaraidh
+22.312901	57.455721	Sibéal Ní Chasaide
+57.647472	64.498230	Micheál Ó Ciaraidh
+64.602822	89.042422	Sibéal Ní Chasaide
+90.541570	99.885097	Micheál Ó Ciaraidh
+99.972257	121.553016	Sibéal Ní Chasaide
+121.971383	124.533881	Sibéal Ní Chasaide
+124.533881	125.562366	Micheál Ó Ciaraidh
+125.632094	127.793656	Sibéal Ní Chasaide
+128.037703	129.275372	Micheál Ó Ciaraidh
+129.275372	129.972650	Sibéal Ní Chasaide
+131.314911	140.518983	Sibéal Ní Chasaide
+141.041941	142.262178	CT: Sibéal Ní Chasaide/Micheál Ó Ciaraidh
+142.366770	152.058936	Sibéal Ní Chasaide
+152.058936	152.494735	Micheál Ó Ciaraidh
+152.494735	152.965398	Sibéal Ní Chasaide
+153.069990	162.552973	Micheál Ó Ciaraidh
+162.552973	163.720914	CT: Micheál Ó Ciaraidh/Sibéal Ní Chasaide
